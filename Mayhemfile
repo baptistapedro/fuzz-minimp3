@@ -1,6 +1,6 @@
 image: pedbap/minimp3-mayhem-fuzz
 duration: 90
-project minimp3-fuzz
+project: minimp3-fuzz
 target: minimp3-mayhem-fuzz
 cmds:
   - cmd: /fuzz_minimp3 @@
