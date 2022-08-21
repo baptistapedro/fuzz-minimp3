@@ -1,0 +1,8 @@
+image: index.docker.io/pedbap/minimp3-mayhem-fuzz@sha256:17c8b47a1caec063c5228807416ac429d7335d77d17ab5aed68e5e8f6794285a
+duration: 87000
+project: baptistapedro/minimp3-fuzz
+target: minimp3-mayhem-fuzz
+cmds:
+  - cmd: /fuzz_minimp3 @@
+    afl: true
+    env: {}
